@@ -19,14 +19,14 @@ to_do_list = [other_things, grocery_list]
 print(to_do_list)
 
 grocery_list.append('Food things')
-print(grocery_list[4])
+print(grocery_list[4]) # append changes the list for a specific item
 grocery_list.insert(1, "Pickles")
-print(grocery_list)
-grocery_list.remove("Pickles")
+print(grocery_list) # insert adds to the list in a specific slot
+grocery_list.remove("Pickles") # duh, removes
 
 grocery_list.sort()
 grocery_list.reverse()
-del grocery_list[3]
+del grocery_list[3] # deletes slot 3
 
 print(to_do_list)
 
