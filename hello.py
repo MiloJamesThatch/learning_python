@@ -8,7 +8,8 @@ print("Hello World")
 
 name = "Milo"
 print(name)
-name = 18
+age = 18
+print(age)
 
 # Math
 
@@ -16,9 +17,11 @@ print("5 + 2 =", 5 + 2)
 print("5 - 2 =", 5 - 2)
 print("5 * 2 =", 5 * 2)
 print("5 / 2 =", 5 / 2)
-print("5 % 2 =", 5 % 2)
-print("5 ** 2 =", 5 ** 2)
-print("5 // 2 =", 5 // 2)
+print("5 % 2 =", 5 % 2) # remainder
+print("5 ** 2 =", 5 ** 2) # exponents
+print("5 // 2 =", 5 // 2) # divide and drop the decimal down
+
+# Strings
 
 quote = '"This is a quote inside of quotes'""
 
